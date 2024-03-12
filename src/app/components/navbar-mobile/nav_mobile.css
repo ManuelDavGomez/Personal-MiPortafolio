@@ -1,0 +1,79 @@
+.container-barra {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  border-top: 3px solid rgba(0, 0, 0, 0.15);
+
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index:999;
+
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.container-barra a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+  cursor: pointer;
+}
+
+
+.icon_text {
+  margin-top: 0px;
+  font-size: 0.7rem;
+  transition: color 0.1s;
+  -webkit-transition: color 0.1s;
+  -moz-transition: color 0.1s;
+  -ms-transition: color 0.1s;
+  -o-transition: color 0.1s;
+}
+
+.nav_icons {
+  transition: filter 0.1s ease-in-out;
+  -webkit-transition: filter 0.1s ease-in-out;
+  -moz-transition: filter 0.1s ease-in-out;
+  -ms-transition: filter 0.1s ease-in-out;
+  -o-transition: filter 0.1s ease-in-out;
+}
+
+.nav_icons:hover {
+  filter: brightness(5);
+  color: rgb(0, 255, 242);
+}
+
+@media (min-width:300px) {
+  .icon_text{
+    font-size: 0.9rem;
+
+  }
+
+}
+@media (min-width:365px) {
+  .icon_text{
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:700px) {
+  .container-barra{
+    display: none;
+  }
+}

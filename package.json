@@ -1,0 +1,26 @@
+{
+  "name": "my-portafolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "atropos": "^2.0.2",
+    "bootstrap": "^5.3.1",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.16",
+    "next": "^13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-simple-typewriter": "^5.0.1",
+    "react-spinners": "^0.13.8",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^2.12.0"
+  }
+}

@@ -1,0 +1,62 @@
+#nav_bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+
+  display: none;
+
+  font-family: var(--font-orbitron);
+}
+
+#menu:hover {
+  background-color: rgb(0, 48, 63);
+}
+.navbar-toggler {
+  outline: 1px solid rgb(130, 204, 238);
+}
+.navbar-toggler:hover {
+  outline: 1px solid rgb(0, 98, 128);
+}
+.navbar-toggler i {
+  color: rgb(130, 213, 238);
+  font-size: 20px;
+}
+.navbar-toggler i:hover {
+  color: rgb(0, 92, 128);
+}
+.nav-item a {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.nav-item a:hover {
+  color: #00ffea;
+  text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 11px #00ffea;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+.nav-item a:focus {
+  color: #ffffff;
+}
+#navbarNav {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  justify-content: end;
+}
+
+@media (min-width: 700px) {
+  #nav_bar {
+    display: block;
+  }
+}
