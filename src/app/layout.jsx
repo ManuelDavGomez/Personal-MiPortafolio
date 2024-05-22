@@ -20,13 +20,6 @@ const raleway = Raleway({
   variable: "--font-raleway",
 });
 
-// const Particless = dynamic(
-//   () => import("@/app/components/Particle/Particless"),
-//   {
-//     ssr: false,
-//   }
-// );
-
 export const metadata = {
   title: "ManuelDav - Full Stack Developer",
   description:

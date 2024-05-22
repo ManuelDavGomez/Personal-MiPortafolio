@@ -23,7 +23,9 @@ import {
   SiNextdotjs,
   SiVite,
   SiMongodb,
-  SiExpress
+  SiExpress,
+  SiTailwindcss,
+  SiVercel,
 } from "react-icons/si";
 import { BiLogoNetlify } from "react-icons/bi";
 import { DiNpm } from "react-icons/di";
@@ -62,6 +64,11 @@ const skills = () => {
                   <FaCss3Alt size={50} color="#0870C2" title="Css3" />
                   <SiJavascript size={40} color="#f1dc55" title="Javascript" />
                   <SiAstro size={50} color="white" title="Astro" />
+                  <SiTailwindcss
+                    size={50}
+                    color="#3EBFF8"
+                    title="TailwindCSS"
+                  />
                   <SiReact size={50} color="#65DAFA" title="React" />
                   <SiCssmodules size={50} color="white" title="Css Modules" />
                   <FaBootstrap size={50} color="#8818FC" title="Bootstrap" />
@@ -102,6 +109,7 @@ const skills = () => {
                     className="custom"
                   />
                   <BiLogoNetlify size={50} color="#4C9BC1" title="Netlify" />
+                  <SiVercel size={50} color="white" title="Vercel" />
                   <SiVisualstudiocode
                     size={40}
                     color="#2C7BB3"
@@ -120,8 +128,8 @@ const skills = () => {
                 <section className={styles.front_card} data-atropos-offset="4">
                   <SiMysql size={50} color="#DA8512" title="Mysql" />
                   <FaNodeJs size={50} color="#509A43" title="Node js" />
-                  <SiExpress size={50} color="gray" title="Express"/>
-                  <SiMongodb size={50} color="#02543F" title="Mongodb"/>
+                  <SiExpress size={50} color="gray" title="Express" />
+                  <SiMongodb size={50} color="#02543F" title="Mongodb" />
                 </section>
               </article>
             </Atropos>

@@ -1,4 +1,5 @@
 import Carusel from "@/app/components/carousel/carousel";
+import Carousel from "@/app/components/pers_carousel/carousel";
 import styles from "./projects.module.css";
 
 const projects = () => {
@@ -20,6 +21,24 @@ const projects = () => {
 
         <section className={styles.carousel_container_general}>
           <Carusel />
+        </section>
+      </section>
+
+      <section className={styles.projects_container}>
+        <section className={styles.carousel_container_general}>
+          <Carousel />
+        </section>
+        <section className={styles.proyect_text}>
+          <h2>
+            Portafolio de <span> Proyectos</span>
+          </h2>
+          <p>
+            Bienvenido a mi portafolio de proyectos web personales. Aquí
+            presento mis trabajos más destacados en desarrollo web. Cada
+            proyecto demuestra mi habilidad para crear soluciones innovadoras y
+            eficientes. Explora mi portafolio para conocer más sobre mi trabajo.
+            ¡Gracias por tu visita!
+          </p>
         </section>
       </section>
     </>

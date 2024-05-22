@@ -1,0 +1,25 @@
+.carousel_items {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  padding: 0px 5px 0px 5px;
+}
+
+.carousel_container {
+  width: 100%;
+}
+
+.carousel_items img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+.carousel.carousel-slider .control-arrow {
+  z-index: 888;
+}
