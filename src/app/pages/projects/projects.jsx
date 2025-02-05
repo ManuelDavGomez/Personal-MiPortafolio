@@ -25,9 +25,6 @@ const projects = () => {
       </section>
 
       <section className={styles.projects_container}>
-        <section className={styles.carousel_container_general}>
-          <Carousel />
-        </section>
         <section className={styles.proyect_text}>
           <h2>
             Portafolio de <span> Proyectos</span>
@@ -39,6 +36,9 @@ const projects = () => {
             eficientes. Explora mi portafolio para conocer más sobre mi trabajo.
             ¡Gracias por tu visita!
           </p>
+        </section>
+        <section className={styles.carousel_container_general}>
+          <Carousel />
         </section>
       </section>
     </>

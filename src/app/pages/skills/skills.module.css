@@ -61,7 +61,7 @@
 
 .skills_container h2 span {
   color: rgb(173, 232, 255);
-    text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 15px #00ffea;
+  
 }
 
 .skills_text p {
@@ -91,11 +91,7 @@
   justify-content: center;
   width: 100%;
   position: relative;
-  box-shadow: 0 0 5px #00e1ff4d, 0 0 10px #29383a4d, 0 0 15px #00e1ff4d,
-    0 0 20px #00e1ff4d;
   background: #00e1ff4d;
-  -webkit-backdrop-filter: blur(1px);
-  backdrop-filter: blur(1px);
   border: 1px solid #00e1ff4d;
 }
 

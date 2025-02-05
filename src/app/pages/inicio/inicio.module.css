@@ -90,7 +90,7 @@
 
 .hero_parallax_content h3 {
   color: white;
-  text-shadow: 0 0 5px #ff004ccc, 0 0 10px #ff002bcc, 0 0 15px #ff0000cc;
+
   font-family: var(--font-orbitron);
   margin-top: -25px;
 }
@@ -124,7 +124,7 @@
 
 .texto_container h1 span {
   color: rgb(173, 232, 255);
-  text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 15px #00ffea;
+
 }
 
 .texto_subtext {
@@ -134,8 +134,6 @@
   margin-left: 5vw;
   margin-right: 5vw;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 5px rgba(0, 238, 255, 0.8), 0 0 10px rgba(0, 183, 255, 0.8),
-    0 0 15px rgba(0, 255, 255, 0.8);
   font-family: var(--font-orbitron);
 }
 
@@ -271,7 +269,6 @@
   }
 
   .hero_parallax {
-    background-attachment: fixed;
     background-image: url("../../../../public/img/hero_horizon.avif");
     filter: none;
     -webkit-filter: none;

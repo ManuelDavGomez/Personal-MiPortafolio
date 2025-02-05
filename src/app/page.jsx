@@ -14,14 +14,14 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 500);
+    }, 100);
   }, []);
 
   return (
     <main>
       {loading ? (
         <article className="spinner-container">
-          <RingLoader color="blue" loading={loading} size={200} />
+          <RingLoader color="blue" loading={loading} size={500} />
         </article>
       ) : (
         <>

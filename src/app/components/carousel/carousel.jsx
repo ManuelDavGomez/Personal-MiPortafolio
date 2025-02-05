@@ -6,6 +6,7 @@ import Vision from "@/../public/img/vision.avif";
 import Lilian from "@/../public/img/lilian.avif";
 import Abogado from "@/../public/img/abogado.avif";
 import Maxipan from "@/../public/img/maxipan.avif";
+import Fundamigos from "@/../public/img/fundamigos.png";
 import "./carousel.css";
 
 function carousel() {
@@ -54,7 +55,7 @@ function carousel() {
             loading="eager"
           />
         </section>
-      </a> 
+      </a>
       <a href="https://maxipan.netlify.app/" target="_blank">
         <section className="carousel_items">
           <Image
@@ -66,6 +67,20 @@ function carousel() {
           />
         </section>
       </a>
+
+      <a href="https://fundaamigos.com/" target="_blank">
+        <section className="carousel_items">
+          <Image
+            src={Fundamigos}
+            alt="Pagina de fundacion Fundamigos"
+            width={100}
+            height={100}
+            loading="eager"
+          />
+        </section>
+      </a>
+
+      
     </Carousel>
   );
 }
