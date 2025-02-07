@@ -26,7 +26,7 @@ function carousel() {
             alt="Pagina de Routesthenics"
             width={100}
             height={100}
-            loading="eager"
+            loading="lazy"
           />
         </section>
       </a>

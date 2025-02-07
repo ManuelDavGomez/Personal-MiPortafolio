@@ -21,7 +21,7 @@ const Nav_mobile = () => {
           </Link>
         </section>
         <section className="nav_item">
-          <Image src={Logo} alt="Logo de la pagina" width={50} height={50}></Image>
+          <Image src={Logo} alt="Logo de la pagina" width={50} height={50} loading="lazy"></Image>
         </section>
         <section className="nav_item">
           <Link href="#mis-habilidades" scroll={true}>

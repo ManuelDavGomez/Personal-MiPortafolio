@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import "./page.css";
-import { RingLoader } from "react-spinners";
+import { FadeLoader } from "react-spinners";
 import Inicio from "./pages/inicio/inicio";
 import Skills from "./pages/skills/skills";
 import Projects from "../app/pages/projects/projects.jsx";
@@ -14,14 +14,14 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 100);
+    }, 500);
   }, []);
 
   return (
     <main>
       {loading ? (
         <article className="spinner-container">
-          <RingLoader color="blue" loading={loading} size={500} />
+          <FadeLoader color="blue" loading={loading} size={200} />
         </article>
       ) : (
         <>

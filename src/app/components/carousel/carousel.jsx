@@ -6,6 +6,7 @@ import Vision from "@/../public/img/vision.avif";
 import Lilian from "@/../public/img/lilian.avif";
 import Abogado from "@/../public/img/abogado.avif";
 import Maxipan from "@/../public/img/maxipan.avif";
+import CasaGaby from "../../../../public/img/eventos gaby.jpeg"
 import Fundamigos from "@/../public/img/fundamigos.png";
 import "./carousel.css";
 
@@ -23,6 +24,17 @@ function carousel() {
       showThumbs={false}
       showArrows={true}
     >
+      <a href="https://casadeeventosgaby.netlify.app" target="_blank">
+        <section className="carousel_items">
+          <Image
+            src={CasaGaby}
+            alt="Pagina de casa de eventos gaby"
+            width={100}
+            height={100}
+            loading="lazy"
+          />
+        </section>
+      </a>
       <a href="https://vision4ry.netlify.app" target="_blank">
         <section className="carousel_items">
           <Image
@@ -30,7 +42,7 @@ function carousel() {
             alt="Pagina de Vision4ry"
             width={100}
             height={100}
-            loading="eager"
+            loading="lazy"
           />
         </section>
       </a>
@@ -41,7 +53,7 @@ function carousel() {
             alt="Pagina de la candidata Lilian"
             width={100}
             height={100}
-            loading="eager"
+            loading="lazy"
           />
         </section>
       </a>
@@ -52,7 +64,7 @@ function carousel() {
             alt="Pagina de un abogado"
             width={100}
             height={100}
-            loading="eager"
+            loading="lazy"
           />
         </section>
       </a>
@@ -63,7 +75,7 @@ function carousel() {
             alt="Pagina de Panaderia Maxipan"
             width={100}
             height={100}
-            loading="eager"
+            loading="lazy"
           />
         </section>
       </a>
@@ -75,7 +87,7 @@ function carousel() {
             alt="Pagina de fundacion Fundamigos"
             width={100}
             height={100}
-            loading="eager"
+            loading="lazy"
           />
         </section>
       </a>
